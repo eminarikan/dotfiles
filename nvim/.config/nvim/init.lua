@@ -21,7 +21,7 @@ vim.opt.splitbelow = true
 vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 vim.opt.scrolloff = 10
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
@@ -645,10 +645,22 @@ require('lazy').setup({
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-      vim.cmd.colorscheme 'slate'
+      vim.cmd.colorscheme 'rose-pine'
 
       -- You can configure highlights by doing something like:
       vim.cmd.hi 'Comment gui=none'
+    end,
+  },
+  {
+    'rose-pine/neovim',
+    name = 'rose-pine',
+    config = function()
+      require('rose-pine').setup {
+        disable_background = true,
+        styles = {
+          italic = false,
+        },
+      }
     end,
   },
 
@@ -712,6 +724,7 @@ require('lazy').setup({
         'vimdoc',
         'javascript',
         'java',
+        'sql',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,

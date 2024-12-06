@@ -1,0 +1,70 @@
+rm -rf ./nushell/
+exit
+stow nushell --adapt
+stow nushell --adopt
+cd dotfiles/
+stow nushell --adopt
+ls
+exit
+config nu 
+clear
+cd dotfiles/
+v
+nvim
+exit
+cd .local/
+ls
+share/
+ls
+Steam
+Steam/
+ls
+steamapps
+steamapps/
+ls
+common/
+ls
+nautilus .
+clear
+..
+.........
+..
+ls
+cd home/
+cd ea/
+clear
+exit
+./no steam
+xrandr --listproviders
+clear
+exit
+./no steam
+exit
+cd Workspace/
+go version
+go install go-blueprint
+go install github.com/melkeydev/go-blueprint@latest
+go-blueprint create --name SET_YOUR_PROJECT_NAME --framework gin --driver sqlite --advanced --feature htmx --feature tailwind
+ls
+go version
+clear
+c
+clear
+cd gonket/
+ls
+nvim
+cd ..
+..
+dotfiles/
+nvim
+exit
+dotfiles/
+nvi
+bcin
+nvim
+exit
+chsh -s $(which bash)
+which bash
+chsh -s "/usr/bin/bash"
+clear
+exit
