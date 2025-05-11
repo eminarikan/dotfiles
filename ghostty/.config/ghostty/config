@@ -44,7 +44,7 @@
 #
 theme = dark:rose-pine,light:rose-pine-dawn
 font-family = UbuntuMono Nerd Font
-font-size = 18
+font-size = 16
 window-decoration = none
 window-padding-y = 0
 window-padding-x = 0
