@@ -1,4 +1,5 @@
 require('lazy').setup({
+  'NMAC427/guess-indent.nvim',
   require 'tttm/plugins/gitsigns',
   require 'tttm/plugins/whichkey',
   require 'tttm/plugins/telescope',
@@ -12,6 +13,7 @@ require('lazy').setup({
   require 'tttm/plugins/neotree',
   require 'tttm/plugins/todo-comments',
   require 'tttm/plugins/mini',
+  require 'tttm/plugins/indent-line',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the

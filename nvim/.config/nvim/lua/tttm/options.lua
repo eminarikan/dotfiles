@@ -9,18 +9,20 @@ vim.o.showmode = false
 
 vim.o.signcolumn = 'yes'
 
+vim.o.updatetime = 250
+
+vim.o.timeoutlen = 300
+
+vim.o.splitright = true
+vim.o.splitbelow = true
+
 vim.o.cursorline = true
 
 vim.o.scrolloff = 8
 
 vim.o.confirm = true
 
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
-
-vim.opt.smartindent = true
-
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+
+-- vim: ts=2 sts=2 sw=2 et
