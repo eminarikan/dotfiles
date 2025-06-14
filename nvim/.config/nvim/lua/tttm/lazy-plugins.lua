@@ -1,0 +1,11 @@
+require("lazy").setup({
+	require("tttm/plugins/telescope"),
+	require("tttm/plugins/rosepine"),
+	require("tttm/plugins/treesitter"),
+	require("tttm/plugins/lspconfig"),
+	require("tttm/plugins/autopairs"),
+	require("tttm/plugins/conform"),
+	require("tttm/plugins/blink-cmp"),
+	require("tttm/plugins/lint"),
+	require("tttm/plugins/neotree"),
+})
