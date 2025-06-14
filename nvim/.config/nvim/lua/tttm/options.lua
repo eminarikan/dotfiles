@@ -1,11 +1,13 @@
 vim.o.number = true
-vim.o.mouse = "a"
+vim.o.mouse = 'a'
 vim.o.undofile = true
 
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
-vim.o.signcolumn = "yes"
+vim.o.showmode = false
+
+vim.o.signcolumn = 'yes'
 
 vim.o.cursorline = true
 
@@ -21,4 +23,4 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 vim.o.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
